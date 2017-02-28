@@ -5,8 +5,8 @@ public class Tenant extends AbstractEntity {
     String firstName;
     String lastName;
     String email;
-    String doorNum;
-    String hash;
+    String building;
+    String flat;
 
     public String getPropertyId() {
         return propertyId;
@@ -40,19 +40,19 @@ public class Tenant extends AbstractEntity {
         this.email = email;
     }
 
-    public String getDoorNum() {
-        return doorNum;
+    public String getBuilding() {
+        return building;
     }
 
-    public void setDoorNum(String doorNum) {
-        this.doorNum = doorNum;
+    public void setBuilding(String building) {
+        this.building = building;
     }
 
-    public String getHash() {
-        return hash;
+    public String getFlat() {
+        return flat;
     }
 
-    public void setHash(String hash) {
-        this.hash = hash;
+    public void setFlat(String flat) {
+        this.flat = flat;
     }
 }
